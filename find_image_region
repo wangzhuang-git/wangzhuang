@@ -1,0 +1,6 @@
+*变图像为所求区域
+rgb1_to_gray (Image, GrayImage)
+threshold (GrayImage, Region, low, high)
+connection (Region, ConnectedRegions)
+select_shape (ConnectedRegions, SelectedRegions, 'area', 'and', area1, area2)
+return ()
